@@ -201,6 +201,9 @@ header li a:focus {
 .inner-layer video {
     width:100%;
 }
+video {
+    display:block;
+}
 .upper-layer {
     position:absolute;
     top:0;
