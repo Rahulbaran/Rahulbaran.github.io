@@ -155,7 +155,24 @@ header li a:focus {
     }
 }
 
-@media (max-width:540px) {
+@media (max-width:540px){
+    .col-3 {
+        width:30%;
+    }
+    .company-logo {
+        transform:translateY(23px);
+    }
+    #fa-nav{
+        display:contents;
+        cursor:pointer;
+        font-size:1.5rem;
+        color:#fff;
+        padding:0.3em;
+    }
+    .navbar {
+        display:none;
+       
+    }
     header nav ul {
         flex-direction:column;
         align-items:center;
@@ -163,6 +180,9 @@ header li a:focus {
     header nav li {
         margin-bottom:0.3em;
     }
+}
+.nav-visible {
+     display:contents;
 }
 
 
