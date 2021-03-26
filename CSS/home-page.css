@@ -75,6 +75,9 @@ header {
 }
 
 /*-------------- navigation bar----------------*/
+#fa-nav{
+    display:none;
+}
 header nav ul {
 
     display:flex;
